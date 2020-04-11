@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Cherry.Db.Utils
 {
-    public static class ParallelEx
+    internal static class ParallelEx
     { 
         /// <summary>
         /// 并行平均按任务量执行任务

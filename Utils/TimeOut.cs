@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Cherry.Db.Utils
 {
-    public struct TimeOut
+    internal struct TimeOut
     {
         private int _lastTime;
         private int _seq;
